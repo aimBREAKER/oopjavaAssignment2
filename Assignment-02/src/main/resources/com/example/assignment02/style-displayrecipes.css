@@ -1,0 +1,27 @@
+/* Styles for DisplayRecipesController.fxml */
+.root {
+    -fx-background-color: lightgray;
+}
+
+#clickButton {
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+    -fx-background-color: dodgerblue;
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+    -fx-pref-width: 120px;
+}
+
+#clickButton:hover {
+    -fx-background-color: cornflowerblue;
+}
+
+#errorLabel {
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+    -fx-text-fill: crimson;
+}
+
+#imageView {
+    -fx-background-color: gainsboro;
+}

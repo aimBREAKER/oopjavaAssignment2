@@ -1,0 +1,49 @@
+.root {
+    -fx-font-weight: bold;
+    -fx-background-color: lightskyblue;
+}
+
+#mainContainer {
+    -fx-padding: 20px;
+    -fx-spacing: 10px;
+}
+
+#titleLabel {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: darkslategray;
+}
+
+#inputContainer {
+    -fx-spacing: 5px;
+}
+
+#inputLabel {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: darkslategray;
+}
+
+#inputFields {
+    -fx-pref-width: 200px;
+    -fx-pref-height: 30px;
+    -fx-font-size: 14px;
+}
+
+#searchButton {
+    -fx-pref-width: 120px;
+    -fx-pref-height: 40px;
+    -fx-font-size: 16px;
+    -fx-background-color: mediumseagreen;
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+}
+
+#searchButton:hover {
+    -fx-background-color: darkseagreen;
+}
+
+#errorLabel {
+    -fx-font-size: 12px;
+    -fx-text-fill: crimson;
+}
